@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border-bottom: 1px solid #444c56;
+  padding: 10px 10px;
+}
+
+.name {
+  color: #1dc7f1;
+  font-style: italic;
+}
+
+.phoneNumber {
+  color: #48b4cf;
+  font-style: unset;
+}
+
+.btnDelete {
+  width: 120px;
+  color: white;
+  background-color: #373e47;
+  border: 1px solid #444c56;
+  border-radius: 3px;
+}
+
+.btnDelete:hover {
+  border: 1px solid #1dc7f1;
+}

@@ -1,0 +1,63 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modalBody {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  padding: 10px 10px;
+  width: 350px;
+  border-radius: 3px;
+  background: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background: rgba(33, 33, 41, 1.1);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.input {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 5px;
+  outline: none;
+  background: rgb(33, 33, 41);
+  color: #1dc7f1;
+  border: 1px solid #444c56;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 120px;
+  color: white;
+  background-color: #373e47;
+  border: 1px solid #444c56;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  border: 1px solid #1dc7f1;
+}
